@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: var(--veryDark);
+  min-height: 100vh;
+  min-width: 100vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 62.5%;
+}
+
+:root {
+  --veryDark: #461220;
+  --dark: #8c2f39;
+  --main: #b23a48;
+  --accent: #fcb9b2;
+  --light: #fed0bb;
+}
